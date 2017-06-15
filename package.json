@@ -1,0 +1,22 @@
+{
+  "name": "ibrain-age-error",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ibrainAgeError.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benben1024/ibrainAgeError.git"
+  },
+  "keywords": [
+    "ibrain-age-error"
+  ],
+  "author": "weipeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benben1024/ibrainAgeError/issues"
+  },
+  "homepage": "https://github.com/benben1024/ibrainAgeError#readme"
+}
