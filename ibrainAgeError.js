@@ -61,6 +61,14 @@ createError: (err) => {
     invalid_token: CreateError('10009','invalid token.',401),
     sms_error: CreateError('10010','sms error.',400),
     verify_error: CreateError('10011','verify error.',400),
+    read_file_error: CreateError('10012','read file error.',500),
+    file_type_error: CreateError('10013','file type error.',401),
+    invalid_pay_type: CreateError('10014','invalid pay type.',401),
+    invalid_pay_channel: CreateError('10015','invalid pay channel.',401),
+    file_upload_error: CreateError('10016','file upload error.',500),
+    file_download_error: CreateError('10017','file download error.',500),
+    pingpp_sdk_error: CreateError('10018','pingpp charge error.',500),
+    wechat_auth_error: CreateError('10019','wechat auth error.',401),
 
     cache_error: CreateError('10098','cache error.',500),
     unknown_error: CreateError('10099','unknown error.',500)
