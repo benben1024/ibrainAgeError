@@ -69,6 +69,11 @@ createError: (err) => {
     file_download_error: CreateError('10017','file download error.',500),
     pingpp_sdk_error: CreateError('10018','pingpp charge error.',500),
     wechat_auth_error: CreateError('10019','wechat auth error.',401),
+    jpush_sdk_error: CreateError('10020','jpush sdk error.',500),
+    invalid_receipt_data: CreateError('10021','invalid receipt data.',400),
+    invalid_app_id: CreateError('10022','invalid app id.',400),
+    order_has_disposed: CreateError('10023','order has disposed.',400),
+    invalid_apple_goods_id: CreateError('10024','invalid apple goods id.',400),
 
     cache_error: CreateError('10098','cache error.',500),
     unknown_error: CreateError('10099','unknown error.',500)
