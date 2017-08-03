@@ -18,36 +18,44 @@ class IbrainAgeError extends Error {
 
 const error = {
     check: (err) => {
-    if (typeof err === 'object' &&
-    typeof err.code === 'string' &&
-    typeof err.message === 'string') {
-        return true;
-    }
-    return false;
-},
+        if (typeof err === 'object' &&
+        typeof err.code === 'string' &&
+        typeof err.message === 'string') {
+            return true;
+        }
+        return false;
+    },
 
-equal: (a, b) => {
-    if (error.check(a) && error.check(b)){
-        return a.code === b.code && a.message === b.message;
-    }
-    return false;
-},
+    equal: (a, b) => {
+        if (error.check(a) && error.check(b)){
+            return a.code === b.code && a.message === b.message;
+        }
+        return false;
+    },
 
-isSuccess: (err) => {
-    if (error.check(err)){
-        return err.code === error.success.code && err.message === error.success.message;
-    }
+    isSuccess: (err) => {
+        if (error.check(err)){
+            return err.code === error.success.code && err.message === error.success.message;
+        }
 
-    return false;
-},
+        return false;
+    },
 
-createError: (err) => {
-    if (error.check(err)){
-        return new IbrainAgeError(err)
-    }
+    createError: (err) => {
+        if (error.check(err)){
+            return new IbrainAgeError(err)
+        }
 
-    throw new TypeError('error format invalid');
-},
+        throw new TypeError('error format invalid');
+    },
+
+    createError: (err) => {
+        if (error.check(err)){
+            return new IbrainAgeError(err)
+        }
+
+        throw new TypeError('error format invalid');
+    },
 
     success: CreateError('0','success.'),
     has_not_login: CreateError('10001','has not login.',401),
@@ -74,6 +82,8 @@ createError: (err) => {
     invalid_app_id: CreateError('10022','invalid app id.',400),
     order_has_disposed: CreateError('10023','order has disposed.',400),
     invalid_apple_goods_id: CreateError('10024','invalid apple goods id.',400),
+    password_wrong: CreateError('10025','password wrong.',400),
+    resource_already_in_use: CreateError('10026','resource already in use.',400),
 
     cache_error: CreateError('10098','cache error.',500),
     unknown_error: CreateError('10099','unknown error.',500)
