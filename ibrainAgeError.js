@@ -84,6 +84,8 @@ const error = {
     invalid_apple_goods_id: CreateError('10024','invalid apple goods id.',400),
     password_wrong: CreateError('10025','password wrong.',400),
     resource_already_in_use: CreateError('10026','resource already in use.',400),
+    file_name_error: CreateError('10027','file name error.',400),
+    already_point: CreateError('10028','already point.',400),
 
     cache_error: CreateError('10098','cache error.',500),
     unknown_error: CreateError('10099','unknown error.',500)
