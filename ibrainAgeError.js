@@ -86,6 +86,7 @@ const error = {
     resource_already_in_use: CreateError('10026','resource already in use.',400),
     file_name_error: CreateError('10027','file name error.',400),
     already_point: CreateError('10028','already point.',400),
+    jekyll_build_error: CreateError('10029','jekyll build error.',500),
 
     cache_error: CreateError('10098','cache error.',500),
     unknown_error: CreateError('10099','unknown error.',500)
