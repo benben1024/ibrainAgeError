@@ -87,6 +87,8 @@ const error = {
     file_name_error: CreateError('10027','file name error.',400),
     already_point: CreateError('10028','already point.',400),
     jekyll_build_error: CreateError('10029','jekyll build error.',500),
+    already_answered: CreateError('10030','already answered.',400),
+    invalid_action_type: CreateError('10031','invalid action type.',400),
 
     cache_error: CreateError('10098','cache error.',500),
     unknown_error: CreateError('10099','unknown error.',500)
