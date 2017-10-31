@@ -85,6 +85,8 @@ const error = {
     already_time_out: CreateError('10033','already time out.',400),
     already_replied: CreateError('10034','already replied.',400),
     already_praised: CreateError('10035','already praised.',400),
+    invalid_share_type: CreateError('10036','invalid share type.',400),
+    invalid_content_type: CreateError('10037','invalid content type.',400),
 
     cache_error: CreateError('10098','cache error.',500),
     unknown_error: CreateError('10099','unknown error.',500)
