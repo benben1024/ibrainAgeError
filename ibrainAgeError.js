@@ -49,14 +49,6 @@ const error = {
         throw new TypeError('error format invalid');
     },
 
-    createError: (err) => {
-        if (error.check(err)){
-            return new IbrainAgeError(err)
-        }
-
-        throw new TypeError('error format invalid');
-    },
-
     success: CreateError('0','success.'),
     has_not_login: CreateError('10001','has not login.',401),
     params_invalid: CreateError('10002','params invalid.',401),
@@ -89,6 +81,10 @@ const error = {
     jekyll_build_error: CreateError('10029','jekyll build error.',500),
     already_answered: CreateError('10030','already answered.',400),
     invalid_action_type: CreateError('10031','invalid action type.',400),
+    invalid_baby_id: CreateError('10032','invalid baby id.',400),
+    already_time_out: CreateError('10033','already time out.',400),
+    already_replied: CreateError('10034','already replied.',400),
+    already_praised: CreateError('10035','already praised.',400),
 
     cache_error: CreateError('10098','cache error.',500),
     unknown_error: CreateError('10099','unknown error.',500)
