@@ -92,6 +92,7 @@ const error = {
     game_data_not_exist: CreateError('10040','game data not exist.',401),
     game_level_count_error: CreateError('10041','game level count error.',401),
     teacher_not_exist: CreateError('10042','teacher not exist.',401),
+    wechat_api_error: CreateError('10043','wechat api error.',500),
 
     cache_error: CreateError('10098','cache error.',500),
     unknown_error: CreateError('10099','unknown error.',500)
