@@ -97,7 +97,7 @@ const error = {
     redeem_code_expired: CreateError('10045','redeem code expired.',401),
     redeem_code_already_used: CreateError('10046','redeem code already used.',401),
     only_vip_can_use: CreateError('10047','only vip can use.',401),
-    only_unvip_can_use: CreateError('10048','only unvip can use.',401),
+    only_new_user_can_use: CreateError('10048','only new user can use.',401),
     create_excel_error: CreateError('10049','create excel error.',500),
     create_qrcode_error: CreateError('10050','create qrcode error.',500),
 
