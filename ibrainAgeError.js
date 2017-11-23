@@ -93,6 +93,11 @@ const error = {
     game_level_count_error: CreateError('10041','game level count error.',401),
     teacher_not_exist: CreateError('10042','teacher not exist.',401),
     wechat_api_error: CreateError('10043','wechat api error.',500),
+    invalid_redeem_code: CreateError('10044','invalid redeem code.',401),
+    create_excel_error: CreateError('10045','create excel error.',500),
+    user_group_error: CreateError('10046','user group error.',401),
+    redeem_code_expired: CreateError('10047','redeem code expired.',401),
+    create_qrcode_error: CreateError('10048','create qrcode error.',500),
 
     cache_error: CreateError('10098','cache error.',500),
     unknown_error: CreateError('10099','unknown error.',500)
