@@ -94,10 +94,13 @@ const error = {
     teacher_not_exist: CreateError('10042','teacher not exist.',401),
     wechat_api_error: CreateError('10043','wechat api error.',500),
     invalid_redeem_code: CreateError('10044','invalid redeem code.',401),
-    create_excel_error: CreateError('10045','create excel error.',500),
-    user_group_error: CreateError('10046','user group error.',401),
-    redeem_code_expired: CreateError('10047','redeem code expired.',401),
-    create_qrcode_error: CreateError('10048','create qrcode error.',500),
+    redeem_code_expired: CreateError('10045','redeem code expired.',401),
+    redeem_code_already_used: CreateError('10046','redeem code already used.',401),
+    only_vip_can_use: CreateError('10047','only vip can use.',401),
+    only_unvip_can_use: CreateError('10048','only unvip can use.',401),
+    create_excel_error: CreateError('10049','create excel error.',500),
+    create_qrcode_error: CreateError('10050','create qrcode error.',500),
+
 
     cache_error: CreateError('10098','cache error.',500),
     unknown_error: CreateError('10099','unknown error.',500)
