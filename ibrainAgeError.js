@@ -88,7 +88,7 @@ const error = {
     invalid_share_type: CreateError('10036','invalid share type.',400),
     invalid_content_type: CreateError('10037','invalid content type.',400),
     age_out_of_range: CreateError('10038','age out of range.',401),
-    exam_data_not_exist: CreateError('10039','exam data not exist.',401),
+    ability_data_not_exist: CreateError('10039','ability data not exist.',401),
     game_data_not_exist: CreateError('10040','game data not exist.',401),
     game_level_count_error: CreateError('10041','game level count error.',401),
     teacher_not_exist: CreateError('10042','teacher not exist.',401),
