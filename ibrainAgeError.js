@@ -100,7 +100,7 @@ const error = {
     only_new_user_can_use: CreateError('10048','only new user can use.',401),
     create_excel_error: CreateError('10049','create excel error.',500),
     create_qrcode_error: CreateError('10050','create qrcode error.',500),
-
+    other_one_logined: CreateError('10051','other one logined.',401),
 
     cache_error: CreateError('10098','cache error.',500),
     unknown_error: CreateError('10099','unknown error.',500)
