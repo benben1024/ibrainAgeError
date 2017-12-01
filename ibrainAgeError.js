@@ -100,7 +100,9 @@ const error = {
     only_new_user_can_use: CreateError('10048','only new user can use.',401),
     create_excel_error: CreateError('10049','create excel error.',500),
     create_qrcode_error: CreateError('10050','create qrcode error.',500),
-    other_one_logined: CreateError('10051','other one logined.',401),
+    token_not_latest: CreateError('10051','token not latest.',401),
+    code_amount_error: CreateError('10052','codes amount must less than 50000.',401),
+    invalid_baby_id: CreateError('10053','invalid baby id.',401),
 
     cache_error: CreateError('10098','cache error.',500),
     unknown_error: CreateError('10099','unknown error.',500)
