@@ -103,6 +103,7 @@ const error = {
     token_not_latest: CreateError('10051','token not latest.',401),
     code_amount_error: CreateError('10052','codes amount must less than 50000.',401),
     invalid_baby_id: CreateError('10053','invalid baby id.',401),
+    message_amount_error: CreateError('10055','message amount error.',401),
 
     cache_error: CreateError('10098','cache error.',500),
     unknown_error: CreateError('10099','unknown error.',500)
