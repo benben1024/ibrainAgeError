@@ -104,6 +104,10 @@ const error = {
     code_amount_error: CreateError('10052','codes amount must less than 50000.',401),
     invalid_baby_id: CreateError('10053','invalid baby id.',401),
     message_amount_error: CreateError('10055','message amount error.',401),
+    no_users_for_import: CreateError('10056','no users for import.',401),
+    refund_money_error: CreateError('10057','refund money must be equal or lesser than pay money.',401),
+    refund_pay_type_error: CreateError('10058','pay type must be wx or wx_pub or alipay.',401),
+    order_status_error: CreateError('10059','order status error.',401),
 
     cache_error: CreateError('10098','cache error.',500),
     unknown_error: CreateError('10099','unknown error.',500)
