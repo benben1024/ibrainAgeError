@@ -112,6 +112,7 @@ const error = {
     answer_not_change: CreateError('10061','answer not change.',401),
     already_favorited: CreateError('10062','already favorited.',401),
     already_added: CreateError('10063','already added.',401),
+    invalid_pay_type: CreateError('10064','invalid pay type.',401),
 
     cache_error: CreateError('10098','cache error.',500),
     unknown_error: CreateError('10099','unknown error.',500)
