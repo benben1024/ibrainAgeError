@@ -115,6 +115,10 @@ const error = {
     invalid_pay_type: CreateError('10064','invalid pay type.',401),
     get_video_size_error: CreateError('10065','get video size error.',500),
     deeplink_service_error: CreateError('10066','deeplink service error.',500),
+    repetitive_request: CreateError('10067','repetitive request.',401),
+    cash_amount_error: CreateError('10068','cash_amount error.',401),
+    cash_times_limit: CreateError('10069','cash times must be equal or lesser than 3 per day.',401),
+    money_not_enough: CreateError('10070','money not enough.',500),
 
     cache_error: CreateError('10098','cache error.',500),
     unknown_error: CreateError('10099','unknown error.',500)
