@@ -119,6 +119,7 @@ const error = {
     cash_amount_error: CreateError('10068','cash_amount error.',401),
     cash_times_limit: CreateError('10069','cash times must be equal or lesser than 3 per day.',401),
     money_not_enough: CreateError('10070','money not enough.',500),
+    cash_account_forbidden: CreateError('10071','cash account forbidden.',401),
 
     cache_error: CreateError('10098','cache error.',500),
     unknown_error: CreateError('10099','unknown error.',500)
