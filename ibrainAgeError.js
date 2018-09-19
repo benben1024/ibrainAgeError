@@ -124,6 +124,7 @@ const error = {
     invalid_redeem_code_type: CreateError('10073','invalid redeem code type.',401),
     no_redeem_code_in_storage: CreateError('10074','no redeem code in storage.',401),
     duplicate_redeem_code: CreateError('10075','duplicate redeem code.',401),
+    general_redeem_code_already_used: CreateError('10076','general redeem code already used.',401),
 
 
     cache_error: CreateError('10098','cache error.',500),
