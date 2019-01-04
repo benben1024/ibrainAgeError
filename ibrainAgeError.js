@@ -125,7 +125,9 @@ const error = {
     no_redeem_code_in_storage: CreateError('10074','no redeem code in storage.',401),
     duplicate_redeem_code: CreateError('10075','duplicate redeem code.',401),
     general_redeem_code_already_used: CreateError('10076','general redeem code already used.',401),
-
+    system_is_busy: CreateError('10077','system is busy please try again later.',401),
+    invalid_goods_type: CreateError('10078','invalid goods type.',401),
+    balance_not_enough: CreateError('10079','balance not enough.',401),
 
     cache_error: CreateError('10098','cache error.',500),
     unknown_error: CreateError('10099','unknown error.',500)
