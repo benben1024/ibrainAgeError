@@ -128,6 +128,10 @@ const error = {
     system_is_busy: CreateError('10077','system is busy please try again later.',401),
     invalid_goods_type: CreateError('10078','invalid goods type.',401),
     balance_not_enough: CreateError('10079','balance not enough.',401),
+    card_expired: CreateError('10080','card expired.',401),
+    card_invalid: CreateError('10081','card invalid.',401),
+    card_already_used: CreateError('10082','card invalid.',401),
+    balance_not_enough: CreateError('10079','balance not enough.',401),
 
     cache_error: CreateError('10098','cache error.',500),
     unknown_error: CreateError('10099','unknown error.',500)
