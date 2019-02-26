@@ -131,7 +131,6 @@ const error = {
     card_expired: CreateError('10080','card expired.',401),
     card_invalid: CreateError('10081','card invalid.',401),
     card_already_used: CreateError('10082','card invalid.',401),
-    balance_not_enough: CreateError('10079','balance not enough.',401),
 
     cache_error: CreateError('10098','cache error.',500),
     unknown_error: CreateError('10099','unknown error.',500)
